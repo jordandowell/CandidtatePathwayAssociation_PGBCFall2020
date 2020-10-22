@@ -1,6 +1,10 @@
 # introduction to candidate pathway association 
 #install necessary packages
 
+if(!require("qqman")){
+  BiocManager::install("qqman")
+  stopifnot(require("qqman"))
+}
 library(qqman)
 
 
